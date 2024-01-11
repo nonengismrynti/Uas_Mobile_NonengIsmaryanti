@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "606279842085",
+    "project_id": "waterreservior",
+    "storage_bucket": "waterreservior.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:606279842085:android:cf03d02f113a9bd4c482cc",
+        "android_client_info": {
+          "package_name": "com.example.waterreserviorapps"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPvZI9x9zpCAS1GDX5cGYaYpcDp8NMs00"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

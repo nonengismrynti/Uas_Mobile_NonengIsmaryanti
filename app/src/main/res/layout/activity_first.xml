@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:src="@drawable/logo2"
+            android:layout_marginTop="100dp"/>
+        
+        <ImageView
+            android:layout_width="327dp"
+            android:layout_height="247dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="-260dp"
+            android:src="@drawable/logo1"/>
+        
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="80dp"/>
+        
+        <TextView
+            android:layout_width="302dp"
+            android:layout_height="58dp"
+            android:layout_gravity="center"
+            android:text="Track your daily water intake with Us."
+            android:textSize="24dp"
+            android:fontFamily="@font/interbold"
+            android:textColor="@color/black"
+            android:textAlignment="center" />
+        
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp"/>
+        
+        <TextView
+            android:layout_width="318dp"
+            android:layout_height="44dp"
+            android:layout_gravity="center"
+            android:text="Reach your clean water target with a simple tap!"
+            android:textAlignment="center"
+            android:fontFamily="@font/poppinsreguler"
+            android:textSize="14dp"
+            android:textColor="#625D5D"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="60dp"/>
+        
+        <ImageButton
+            android:id="@+id/btn_next"
+            android:layout_width="318dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:src="@drawable/btnnext"/>
+        
+    </LinearLayout>
+
+</LinearLayout>
